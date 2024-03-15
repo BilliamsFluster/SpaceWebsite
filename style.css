@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*
+{
+    font-family: "Courgette", cursive;
+
+}
+canvas{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+header{
+    
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    
+    
+    
+}
+
+section{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+section .right
+{
+    
+}
+section div{
+    
+}
+.logoBox a{
+    padding: 20px;
+    font-size: 3em;
+    text-decoration: none;
+    color: white;
+}
+
+.navItems a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    border-radius: 13px;
+    font-size: 1.2em;
+    
+}
+.navItems a:hover{
+    color: #3b6d7ea1;
+}
+.logo:hover{
+  color: #3b6d7ea1;
+}
+
+.content
+{
+    height: 70vh;
+}
+.footer
+{
+    height: 15vh;
+}
+.links
+{
+    
+    
+    background: blue;
+    padding: 6px 15px;
+    color: white;
+    text-transform: capitalize;
+    
+}
+
+.introText
+{
+  font-size: 2em;
+  
+  
+  padding-bottom: 10px;
+}
+.subIntroText
+{
+  font-size: 1em;
+  
+}
+.statements
+{
+  display: flex;
+  font-weight: 600;
+  color: rgb(0, 89, 255);
+  text-decoration: none;
+  
+}
+.statements ul li:hover
+{
+  color: rgb(43, 176, 228);
+}
+
+.spaceIntro
+{
+  z-index: 5;
+  
+}
+
+
+
+
+.portfolio div img{
+  border-radius: 30px;
+  width: 80%;
+  padding: 20px;
+
+  
+}
+
+.work
+{
+  padding-left: 20vw;
+  font-size: 4em;
+  
+}
+
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40vh;
+}
+.contactSection {
+  display: inline;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  height: 50vh;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  padding: 40px;
+  backdrop-filter: blur(10px); /* Adds a subtle blur effect to the background */
+  border-radius: 10px; /* Rounded corners */
+}
+
+
+.contactContainer p
+{
+  
+  font-size: 32px;
+  color: rgb(43, 176, 228);
+
+  margin-bottom: 20px;
+  animation: fadeIn 1s ease-in;
+}
+.Input-Field {
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 2px solid transparent; /* Transparent border */
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  font-size: 16px;
+  transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+  outline: none; /* Remove default focus outline */
+}
+.Input-Field:focus {
+  border-color: #4caf50; /* Green border on focus */
+  background-color: rgba(255, 255, 255, 0.2);
+  color:  rgb(43, 176, 228); /* Green text color on focus */
+}
+
+.TextArea-Field {
+  height: 10px;
+}
+
+.Button {
+  background-color: rgb(43, 176, 228);
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.Button:hover {
+  background-color: rgb(10, 82, 110);
+}
+
+
+.section.work {
+  color: #fff;
+  
+  padding: 4rem 0;
+}
+
+.section.work .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section.work h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.section.work p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.project {
+  background: #16203ba6;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project p {
+  font-size: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: #0a0f1f;
+  background-color: rgb(43, 176, 228);;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgb(43, 176, 228);;
+}
+
